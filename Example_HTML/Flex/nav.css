@@ -1,0 +1,43 @@
+
+ul{
+    list-style-type: none;
+    color: aliceblue;
+}
+.btn{
+background-color: blue;
+color: aliceblue;
+box-shadow: 2px 2px 1px black;
+}
+.nav{
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    background-color: dimgray;
+    justify-content: space-between;
+
+}
+.nav-links{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-self: center;
+    margin: 20px;
+
+}
+.nav-title{
+    color: aliceblue;
+    display: flex;
+    margin: 20px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin:20px;
+}
+
+
+

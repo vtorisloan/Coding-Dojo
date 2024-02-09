@@ -1,0 +1,34 @@
+div{
+    margin: 3px 50px;
+}
+.button{
+    border-color: rgba(39, 158, 118, 0.63);
+    color:rgba(39, 146, 158, 0.63);
+    border-radius: 28%;
+    padding: 5px 40px;
+    width: 150px
+}
+.btn1{
+    background-color: rgba(39, 158, 118, 0.63);
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 0px 0px;
+    border: 2px rgba(39, 156, 158, 0.63);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: larger;
+    
+
+}
+.btn2{
+    background-color: blue;
+    color: white;
+    border: 10px;
+    padding: 10px 30px;
+    font-family: monospace;
+    box-shadow: 5px 5px 1px black;
+    
+
+}

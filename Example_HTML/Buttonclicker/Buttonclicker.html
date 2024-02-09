@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" type="text/css" href="btnclicker.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <h1 class="nav-title">Dojonary</h1>
+            <input class="searchbar" type="text" placeholder="Search">
+            <button class="login" onclick="logout(this)">Login</button>
+        </div>
+        <div class="left-column">
+            <div class="ninja">
+                <div class="box1">
+                    <h1>Ninja</h1>
+                    <h5>noun</h5>
+                    <h6>Plural: ninjas</h6>
+                    <button class="likes" onclick="alert('Ninja was liked')"> 13 likes</button>
+                </div>
+            <div class="box1-2">
+                <p id="ninjadef">A practioner skilled in the<span class="blue" style="color: Blue;"> Japense</span> art of <span class="blue" style="color: Blue;">ninjutsu</stan></p>
+            </div>
+        </div>
+        <div class="ninja2">
+            <div class="box2">
+                <h1>Ninja</h1>
+                <h5>noun</h5>
+                <h6>Plural: ninjas</h6>
+                <button class="likes"> 37 likes</button>
+            </div>
+            <div class="box2-2">
+                <p id="ninjadef">A <span class="blue" style="color: Blue;">Programmer</span> who breaks down problems with <span class="blue" style="color: Blue;"> zen</span>-like focus</p>
+            </div>
+        </div>
+    </div>
+        <div class="right-column">
+            <div class=small-box>
+                <p>Dojonary is defined by</p><p class="you">YOU</p>
+                <button class="definition" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+        <script src="btnclicker.js"></script>
+</body>
+</html>

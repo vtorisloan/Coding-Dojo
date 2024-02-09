@@ -1,0 +1,124 @@
+
+.container{
+   width: 900px;
+   padding-bottom: 50px;
+    margin: 0 auto;
+   align-items: center;
+   justify-content: center;
+}
+
+.nav-bar{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 820px;
+}
+.login{
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 2px 2px 1px black;
+    width: 120px;
+    height: min-content;
+    padding: 5px
+}
+.searchbar{
+    width: 300px;
+    height: min-content;
+    padding: 5px;
+}
+
+
+.ninja{
+    width: 500px;
+    height: 200px;
+    margin: 25px;
+    border-color:rgba(105, 105, 105, 0.616);
+    border-style:solid;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    
+}
+.ninja2{
+    width: 500px;
+    height: 200px;
+    margin: 25px;
+    border-color:rgba(105, 105, 105, 0.616);
+    border-style:solid;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    
+}
+.box1{
+    margin-left: 10px;
+    text-align: center;
+    display: inline-block;
+    width:150px;
+    padding-right: 50px;
+}
+.box2-2{
+    margin-left: 50px;
+    text-align: center;
+    display: inline-block;
+    width:200px;
+   
+}
+.box1-2{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.likes{
+    background-color:coral;
+    color: aliceblue;
+    box-shadow: 2px 2px 1px black
+}
+.box2{
+    margin-left: 10px;
+    text-align: center;
+    display: inline-block;
+    width:150px;
+}
+.left-column{
+    flex-direction: column;
+    padding-right: 0px;
+}
+
+.small-box{
+    width: 270px;
+    height: 200px;
+    margin: 25px;
+    border-color:rgba(105, 105, 105, 0.616);
+    border-style:solid;
+    text-align:center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: inline-flexbox;
+    position: absolute;
+    font-size: 150%;
+}
+.definition{
+    background-color:rgb(56, 202, 71);
+    color: aliceblue;
+    box-shadow: 2px 2px 1px black;
+    width: 180px;
+    padding: 8px;
+}
+.right-column{
+    display: flex;
+    position: absolute;
+    top: 11%;
+    left: 55%;
+}
+.blue{
+    text-decoration: underline;
+}
+.you{
+    font-weight: bold;
+    font-size: 120%;
+}
+    

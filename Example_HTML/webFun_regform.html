@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <lable>First Name: * </lable>
+        <input type ="text" name="first_name">
+    </div> 
+    <div>
+        <label>Last Name: * </label>
+        <input type = "text" name="last_name">
+    </div>
+    <div>
+        <label>Email Address: * </label>
+        <input type="text" name="email">
+    </div>
+    <div>
+        <label> Password: * </label>
+        <input type="password" name="password">
+    </div>
+    <div>
+        <label> Confirm Password: * </label>
+        <input type="text" name="confirm_password">
+    </div>
+    <div>
+        <label> Birthday: </label>
+        <input type="text" name="DOB"
+        placeholder="mm/dd/yyyy">
+    </div>
+    <h4>Gender Identity</h4>
+    <div>
+        <input type="radio" id="Male">
+        <label> Male</label>
+        <input type="radio" id="Female">
+        <label> Female</label>
+        <input type="radio" id="Non-Binary">
+        <label> Non-Binary</label>
+        <input type="radio" id="Prefer not to answer">
+        <label> Prefer not to answer</label>
+    </div>
+    <h4> A short discription about myself:</h4>
+    <textarea name="comment" cols="20" rows="2"></textarea>
+    <div>
+        <label>Favorit Language:</label>
+        <select name = "javascript">
+            <option value=""javascript">javascript</option>"
+            <option value=""css">css</option>"
+            <option value=""html">html</option>"
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="offers" id="offers" checked>
+        <label for="offers"> I would like to receive periodic email updates</label>
+    </div>
+    <div>
+        <input type="submit" value="Create Account">
+    </div>
+    <h5> * Indicates a required field</h5>
+</body>
+</html>

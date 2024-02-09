@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" type="text/css" href="likes.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <h2>Your Feed</h2>
+        <div class="leftbox">
+            <img id="avatar" src="user-circle-copy.png" alt="usercard">
+            <div class=underline>Add an avatar</div>
+            <div>James Doe</div>
+        </div>
+        <div class="right-column">
+            <div class="Neil">
+                <div>Neil M</div>
+                <div id="count"> 9 like(s)</div>
+                <button class="likebtn" onclick="add1()">like</button>
+                <p>I just set up this new discord bot, let me know what you all think. <span class="underline" style="color: Blue;">link</span></p>
+            </div>
+            <div class="Nicole">
+                <div>Nicole M</div>
+                <div id="count1"> 12 like(s)</div>
+                <button class="likebtn" onclick="add12()">like</button>
+                <p>Just finsished my <span class="underline" style="color: Blue;">next comic</span>, check it out.</p>
+            </div>
+            <div class="Jim">
+                <div>Jim R</div>
+                <div id="count3"> 9 like(s)</div>
+                <button class="likebtn" onclick="add13()">like</button>
+                <p>I can't stop listening to the <span class="underline" style="color: Blue;">new album</span>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+    <script src="counter.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+
+.container{
+    width: 650px;
+    margin: 0 auto;
+}
+#avatar{
+    height: 80px;
+    padding-bottom: 10px;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    font-weight:lighter;
+  
+}
+.underline{
+    text-decoration: underline;
+    color: blue;
+}
+.leftbox{
+    width: 180px;
+    height: 300px;
+    border-color:black 100px;
+    border-style: solid;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.Neil, .Nicole, .Jim{
+    width: 400px;
+    height: 100px;
+    border-color:black 100px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    padding: 15px;
+    flex-wrap: wrap;
+    margin: 5px
+
+}
+.likebtn{
+    background-color:gold;
+    color:black;
+    box-shadow: 2px 2px 1px black;
+}
+.right-column{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 15%;
+    width: inherit
+}
+h2{
+    text-align: center;
+}

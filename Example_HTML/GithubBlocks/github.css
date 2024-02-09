@@ -1,0 +1,43 @@
+*{
+    margin: 10px;
+    padding: 2px;
+    justify-content: center;
+    margin-left: 20px;
+}
+img{
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+
+.top-row{
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: space-around;
+    width: 950px;
+}
+
+.middle-row{
+    display: flex;
+    background-color: royalblue;
+    justify-content: space-evenly;
+    width: 950px;
+}
+.bottom-row{
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: space-around;
+    width: 950px;
+}
+.container{
+    width: 1000px;
+    background-color: silver;
+    margin: 20px auto;
+    display:inline-flexbox;
+    padding-top: 5px;
+    justify-content: space-evenly;
+}
